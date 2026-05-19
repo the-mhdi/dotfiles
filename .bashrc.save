@@ -1,0 +1,10 @@
+
+
+
+# Huge history buffer
+export HISTSIZE=10000
+export HISTFILESIZE=20000
+
+shopt -s cdspell
+
+alias t='tmux new -A -s main'
